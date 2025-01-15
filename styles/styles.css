@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url(../assets/FONS/Poppins/Poppins-LightItalic.ttf);
+}
+
+body {
+    background-image: url(/assets/indio-background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: rgba(229, 230, 218, 0.3);
+    font-weight: bold;
+    font-size: 560px;
+    text-align: center;
+    margin-top: 250px;
+}
+
+p {
+    color: rgba(229, 230, 218, 0.3);
+    font-family: 'poppins';
+}
+
+li {
+    color: #e5e6da4d;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+
+
+/* NAVBAR */
+
+
+
+.encabezado__ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+
+
+/* VIDEOS PAGES */
+
